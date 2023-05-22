@@ -1,0 +1,31 @@
+/* PAGE WIDTH: 1440px */
+/* PAGE HEIGTH: 750px*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel {
+    height: calc(100vh - 80px);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev,
+.next {
+    border: thin solid rgb(196, 196, 196);
+    border-radius: 10px;
+    height: 4vh;
+    width: 4vh;
+    background: rgb(255, 255, 255);
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(227, 227, 227);
+}

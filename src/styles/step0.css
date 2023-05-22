@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+.Step-0{
+z-index: -5;
+align-items: center;
+justify-content: center;
+}
+
+.background-images {
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    align-items: center;
+    justify-content: center;
+    
+    /* transform: scale(1.45, 1.45); */
+/* -ms-transform: scale(1.4, 1.4);
+-webkit-transform: scale(1.4, 1.4); */
+}
+.step-0container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    z-index: -5;
+    max-width: 100%;
+}
+.weconnect-txt {
+    width: 612px;
+    height: 144px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 30px;
+/* or 133% */
+
+/* Neutral-Black */
+
+    color: #1E1E1E;
+}
+
+.body-text{
+    width: 612px;
+    height: 77px;
+    
+    /* Desktop/Body Large */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Neutral-Black */
+    
+    color: #1E1E1E;
+
+    padding-bottom: 8%
+    
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.spacer {
+    display: flex;
+    transform: scale(0.9, 0.9);
+}
+
+.step0-purple-oval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 65px;
+    background-color: #6B32B5;
+    border-radius: 100px;
+}
+.step0purple-oval:hover {
+    background-color: #4C2481;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.step0-txt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.step0details
+{
+    margin-left: auto;
+    text-align: left;
+    font-family: "Inter";
+    margin-left: 8%;
+    
+}
+
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 4% auto;
+    /* gap: 4%; */
+    align-items: center;
+    overflow-x: hidden;
+    /* margin-left: 4%;
+    margin-right: 4%; */
+}
+
+
+.img-col {
+    flex: 1;
+    text-align: center;
+}
+
+.img-details {
+    /* max-width: 650px; */
+    margin: 0 auto;
+}
+
+.img-details h3 {
+    font-size: 20px;
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+.img-details h2 {
+    margin-bottom: 20px;
+}
+
+/* .img-details h2 {
+    Font-family: Inter;
+Font-style: Semi Bold;
+Font-size: 20px;
+Line-height: 28px;
+Line-height: 116%;
+} */
+
+.img-img {
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 513px) {
+
+
+    .weconnect-txt {
+        /* margin-top: 100px; */
+        margin-bottom: 150px;
+        width: fit-content;
+    }
+
+    .step-0container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        
+    }
+
+    .spacer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .background-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* .dialouge {
+        margin-left: auto;
+    } */
+
+    .image-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .img-col {
+        /* flex: auto; */
+        /* margin-left: 50%; */
+        text-align: center;
+    }
+
+
+
+    .img-details h2 {
+        margin-bottom: 40px;
+    }
+
+    
+    .step0details {
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto; 
+        padding-left: 20px; 
+        width: 100%;
+    }
+
+    .body-text {
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+
+    .dialogue {
+        transform: scale(0.75, 0.75);
+    }
+
+}

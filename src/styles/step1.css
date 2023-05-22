@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=NTR&display=swap');
+
+.step1 {
+    /* margin-top: 232px; */
+    padding-top: 100px;
+    height: 100%;
+    /* width: 50%; */
+    overflow-x: hidden;
+    
+}
+
+.head p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    z-index: -5;
+}
+
+.create-txt {
+    color: #6B32B5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.details {
+    text-align: left;
+    /* max-width: 80%; */
+    margin-left: auto;
+    font-family: "Inter";
+    margin-left: 15%;
+}
+
+.lightpurple2 {
+    /* margin-left: auto; */
+    height: 110vh; 
+    width: 110vh;
+    z-index: -1;
+}
+
+.details p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.details h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 2%;
+}
+
+
+@media only screen and (max-width: 513px) {
+
+    .step1 {
+        height: 100%;
+        overflow-x: hidden;
+        margin-bottom: -250px;
+    }
+
+
+    .head p {
+        font-family: 'Comfortaa', cursive;
+        font-style: SemiBold;
+        font-size: 45px;
+        line-height: 32px;
+        line-height: 120%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0;
+        margin-top: 200px;
+        padding-left: 17px;
+    }
+
+    .details h3 {
+        margin-top: 25px;
+        width: fit-content;
+    }
+    
+    .lightpurple2 {
+        /* margin-left: auto; */
+        /* height: 800px; 
+        width: 750px; */
+        height: 110vh;
+        /* left: 10vw; */
+        width: 115vw;
+        margin-top: -20%;
+        z-index: -1;
+    }
+
+}
+
+
+

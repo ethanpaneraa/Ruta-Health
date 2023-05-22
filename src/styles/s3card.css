@@ -1,0 +1,36 @@
+/* PAGE HEIGTH: 750px*/
+/* PAGE WIDTH: 1440px */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.s3card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    height: 93.33%;
+    width: 30.5%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 34px rgba(35, 41, 58, 0.214476);
+    border-radius: 30px;
+}
+
+.divide {
+    height: 0px;
+    width: 79.54%;
+    border: 0.5px solid #CCCCCC;
+}
+
+@media screen and (max-width: 513px) {
+    .s3card {
+        width: 264px;
+        height: 420px;
+        margin-left: 0%;
+    }
+}

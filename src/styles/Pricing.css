@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+
+#Pricing2 {
+    padding-top: 110px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.background-imgs23 {
+    position: absolute;
+    z-index: -1;
+}
+
+
+.card-container {
+    width: 537px;
+    height: 528px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 34px rgba(35, 41, 58, 0.214476);
+    border-radius: 30px;
+    margin-top: 3%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.pricing-label {
+    
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 64px; 
+}
+
+.card-header {
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.card-header h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    /* height: 100%; */
+    margin: auto;
+    margin-top: 7%;
+}
+
+.card-lst-container {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.card-container-lst {
+    margin: 0;
+    padding: 0;
+    list-style-image: url("../images/purple_checkmark.svg");
+}
+
+.card-container-lst li{
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.card-body-right {
+    display: flex;
+    flex-direction: column;
+}
+.card-body-right h2 {
+    font-family: 'NTR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #6B32B5;
+}
+
+.card-header-desc {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 80%;
+    margin: auto;
+    /* background-color: green; */
+}
+
+.pricing-container button {
+    background: #6B32B5;
+    border-radius: 100px;
+
+}
+
+.pricing-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 129px;
+    height: 44px;
+    background: #6B32B5;
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+
+.pricing-btn button:hover {
+    background-color: #4C2481;
+    box-shadow: 0px 1px 2px #0000004d, 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+
+@media only screen and (max-width: 513px) {
+
+
+    #Pricing2  {
+        margin-top: 175px;
+        overflow-x: hidden;
+        padding: 12px;
+        margin-bottom: -60%;
+    }
+
+    .pricing-label h1{
+        font-family: 'Comfortaa' !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 37px;
+        line-height: 32px;
+    }
+
+
+    .card-container {
+        width: 400px;
+        height: 700px;
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+
+    .card-header {
+        width: 90%;
+    }
+    .card-body-right h2 {
+        font-size: 70px; 
+    }
+
+
+    /* .card-header-desc {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: 80%;
+        margin: auto;
+        /* background-color: green; */
+
+    .card-header-desc {
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
+    }
+
+    .background-imgs23 {
+        /* position: relative; */
+        /* position: absolute; */
+        /* float: left; */
+        /* transform: scale(1.1,0.85); */
+        /* transform: none; */
+        /* height: 10%; */
+        z-index: -5;
+        /* padding: 0%; */
+        /* margin: 0;  */
+        overflow-x: hidden;
+        /* width: 100%; */
+        /* padding: 0;
+        margin: 0; */
+        /* width: auto; */
+        /* top: 0; */
+        left: 0;
+    }
+
+    .card-container-lst {
+        margin-top: 3%;
+    }
+
+    .card-container-lst li {
+        padding-top: 15px;
+
+    }
+
+    #pricing-background {
+        margin-top: 17%;
+        width: 140%;
+        /* width: min-content; 
+        height: min-content; */
+        /* background-color: red; */
+        overflow-x: hidden;
+        /* margin-left: -150px ; */
+    }    
+}

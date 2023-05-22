@@ -1,0 +1,55 @@
+/* PAGE WIDTH: 1440px */
+/* PAGE HEIGTH: 750px*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.step3-left {
+    height: 23.2%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.s3-txt {
+    font-weight: 600;
+    font-size: 18px;
+    color: #1E1E1E;
+    margin-bottom: 3px;
+}
+
+.discuss {
+    font-weight: 400;
+    font-size: 36px;
+    color: #6B32B5;
+    margin-bottom: 17px;
+}
+
+.pgraph {
+    font-weight: 400;
+    font-size: 20px;
+    color: #1E1E1E;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+@media screen and (max-width: 513px) {
+    .step3-left {
+        width: 97%;
+        margin-left: auto;
+    }
+
+    .pgraph {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.privacy-policy-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy-policy-title {
+    padding-top: 100px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    /* line-height: 64px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-bottom: -200px;
+}
+
+.privacy-policy-list{
+    width: 100%;
+    position: relative;
+    top: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 400px;
+}
+
+.privacy-policy-container{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pp-numbered-list{
+    width: 57%;
+
+    list-style-type: decimal;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    color: #000000;
+}
+
+.privacy-policy-body{
+    width: 57%;
+
+    /* Desktop/Body Large */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    color: #000000;
+
+}
+
+.privacy_policy-p {
+    padding-bottom: 1%;
+}
+
+.indent {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+@media only screen and (max-width: 513px) {
+    .pp-numbered-list{
+        width: 90%;
+    
+    }
+    
+    .privacy-policy-body{
+        width: 90%;
+    
+    }
+}

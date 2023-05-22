@@ -1,0 +1,23 @@
+/* PAGE WIDTH: 1440px */
+/* PAGE HEIGTH: 750px*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    width: 25.83vw;
+}
+
+@media screen and (max-width: 513px) {
+    .card {
+        width: 343px;
+    }
+}

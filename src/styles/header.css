@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-ul {
+    direction: row;
+    display: flex;
+    margin-left: 7.4%;
+    margin-right: 7.4%;
+}
+
+.nav-header-logo {
+    margin-right: auto;
+    list-style-type: none;
+
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.nav-txt {
+    color: #6B32B5;
+}
+
+.btn-txt {
+    color: #6B32B5;
+    white-space: nowrap;
+}
+
+#ruta-works:hover,
+#pricing-text:hover {
+    color: #4C2481;
+}
+
+.clear-oval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+    height: 44px;
+    border: 1px solid #6B32B5;
+    border-radius: 100px;
+}
+
+.clear-oval:hover {
+    background: #ECE8F2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.purple-oval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 44px;
+    background-color: #6B32B5;
+    border-radius: 100px;
+}
+
+.purple-oval:hover {
+    background-color: #4C2481;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+#join-text {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 513px) {
+    .header {
+        height: 60px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 105px;
+        margin-left: 15px;
+    }
+
+    .nav {
+        margin-right: 10px;
+    }
+
+    .nav-txt {
+        z-index: 100;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .wrapper {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        transition: all 0.6s ease-in-out;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .right {
+        height: 100%;
+        width: 50%;
+        background: #FFFFFF;
+    }
+
+    .left {
+        height: calc(100vh - 60px);
+        width: 50%;
+        background: #1E1E1E;
+        opacity: 0.8;
+    }
+
+    #active:checked~.wrapper {
+        right: 0;
+        /* right: -50%; */
+        /* ^^ if we don't want the grey out thing then this is the solution */
+    }
+
+    .menu-btn {
+        position: absolute;
+        z-index: 2;
+        right: 20px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .menu-btn span,
+    .menu-btn:before,
+    .menu-btn:after {
+        content: "";
+        position: absolute;
+        top: calc(50% - 1px);
+        left: 30%;
+        width: 40%;
+        border-bottom: 2px solid #6B32B5;
+        transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    .menu-btn:before {
+        transform: translateY(-8px);
+    }
+
+    .menu-btn:after {
+        transform: translateY(8px);
+    }
+
+    .close {
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        transition: background .6s;
+    }
+
+    /* closing animation */
+    #active:checked+.menu-btn span {
+        transform: scaleX(0);
+    }
+
+    #active:checked+.menu-btn:before {
+        transform: rotate(45deg);
+        border-color: #6B32B5;
+    }
+
+    #active:checked+.menu-btn:after {
+        transform: rotate(-45deg);
+        border-color: #6B32B5;
+    }
+
+    .top-ul {
+        margin-top: 80px;
+        height: 100%;
+        width: 80%;
+        margin-right: 10%;
+    }
+
+    .top-li {
+        height: 45px;
+        display: flex;
+        justify-content: right;
+    }
+
+    .top-a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #6B32B5;
+        position: absolute;
+    }
+
+    .top-a:hover {
+        color: #4C2481;
+    }
+
+    .top-a:after {
+        background: #6B32B5;
+        transform: scaleY(0);
+        z-index: -1;
+        transition: transform 0.3s ease;
+        position: absolute;
+    }
+
+    .mob-clear-oval {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 101px;
+        height: 44px;
+        border: 1px solid #6B32B5;
+        border-radius: 100px;
+    }
+
+    .mob-clear-oval:hover {
+        background: #ECE8F2;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    }
+
+    .mob-btn-txt {
+        font-weight: 600;
+        font-size: 16px;
+        color: #6B32B5;
+    }
+
+    .mob-prp-oval {
+        margin-top: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 124px;
+        height: 44px;
+        background-color: #6B32B5;
+        border-radius: 100px;
+    }
+
+    .mob-prp-oval:hover {
+        background-color: #4C2481;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    }
+
+    .mob-prp-btn-txt {
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    #faq {
+        margin-top: 60px;
+    }
+
+    .img {
+        padding-bottom: 50px;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+}

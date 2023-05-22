@@ -1,0 +1,118 @@
+/* CARD DIMENSIONS: */
+/* HEIGTH: 700px* /
+/* WIDTH: 439.2px */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.s3profile {
+    display: flex;
+    height: 22.29%;         /* 156.03px */
+    width: 79.54%;          /* 556.78px */
+}
+
+.s3-left {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: 'Inter';
+    color: black;
+}
+
+.pfp {
+    border-radius: 50%;
+    height: 64.09%;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.job {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:space-around;
+    font-family: 'Inter';
+}
+
+.start {
+    font-weight: 600;
+    font-size: 16px;
+    color: #374151;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.spec-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDE9FE;
+    border-radius: 12px;
+    padding: 2px 12px;
+}
+
+.spec-txt {
+    font-weight: 500;
+    font-size: 14px;
+    color: #5B21B6
+}
+
+.open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 129px;
+    height: 44px;
+    background: #6B32B5;
+    border-radius: 100px;
+}
+
+.open-txt {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 513px) {
+    .pfp {
+        height: 60px;
+        width: 60px;
+    }
+
+    .name, .start, .date {
+        font-size: 9.6px;
+    }
+
+    .job {
+        font-size: 8.4px;
+    }
+
+    .spec-txt {
+        font-size: 9.5px;
+    }
+
+    .open-txt {
+        font-size: 11px;
+    }
+
+    .open-btn {
+        height: 27px;
+        width: 77px;
+    }
+}
