@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ruta-Health/static/css/main.0a52a734.css",
-    "main.js": "/Ruta-Health/static/js/main.353845e9.js",
+    "main.js": "/Ruta-Health/static/js/main.9e204410.js",
     "static/js/787.28cb0dcd.chunk.js": "/Ruta-Health/static/js/787.28cb0dcd.chunk.js",
     "static/media/pfp2.svg": "/Ruta-Health/static/media/pfp2.93a64d72954a2fe0a8c3a1e9748adbea.svg",
     "static/media/pfp3.svg": "/Ruta-Health/static/media/pfp3.17400cee8b56a664349ba7b2228d3582.svg",
@@ -41,11 +41,11 @@
     "static/media/fb.svg": "/Ruta-Health/static/media/fb.532a38ebff6b394bc568dd635aaa1355.svg",
     "static/media/purple_checkmark.svg": "/Ruta-Health/static/media/purple_checkmark.65d829826fb035754928.svg",
     "main.0a52a734.css.map": "/Ruta-Health/static/css/main.0a52a734.css.map",
-    "main.353845e9.js.map": "/Ruta-Health/static/js/main.353845e9.js.map",
+    "main.9e204410.js.map": "/Ruta-Health/static/js/main.9e204410.js.map",
     "787.28cb0dcd.chunk.js.map": "/Ruta-Health/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a52a734.css",
-    "static/js/main.353845e9.js"
+    "static/js/main.9e204410.js"
   ]
 }
