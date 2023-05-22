@@ -23,7 +23,7 @@ function App() {
           <Route path="/terms" element={<Terms_of_Use />}/>
           <Route path="/contact" element={<Contact />}/>
           <Route path="/privacy" element={<Privacy_Policy />}/>
-          <Route path="/" element={<Main />}/>
+          <Route path="/Ruta-Health" element={<Main />}/>
         </Routes>
       </BrowserRouter>
     </div>
